@@ -1,0 +1,10 @@
+vpc-cidr_block = "10.81.0.0/16"
+instance_tenancy = "default"
+route-table-cidr_block = "0.0.0.0/0"
+vpc-subnet-cidr-block =  "10.81.1.0/24"
+ni-private-ips = ["10.81.3.33"]
+associate_with_private_ip = "10.81.3.33"
+ami-prod = "ami-00fa32593b478ad6e"
+prod-instance_type = "t2.micro"
+instances = false
+key_name = "JenkinsKeys111"
