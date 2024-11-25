@@ -1,5 +1,4 @@
 
-
 variable "ami_south" {
   default = "ami-00fa32593b478ad6e"
 }
@@ -22,12 +21,4 @@ variable "key_name_south" {
 
 variable "key_name_north" {
   default = "NorthEastKey"
-}
-
-output "pub-ip-north" {
-    value = aws_instance.server-north.public_ip
-}
-
-output "pub-ip-south" {
-    value = aws_instance.server-south.public_ip
 }
