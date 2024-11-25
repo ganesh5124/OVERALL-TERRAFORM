@@ -1,0 +1,14 @@
+variable "vpc_cidr_block" {}
+variable "vpc_name" {}
+variable "igw_name" {}
+variable "allow_all_route" {}
+variable "rt_name" {}
+variable "availability_zone" {}
+variable "subnet_name" {}
+variable "sg_name" {}
+variable "sg_protocol" {}
+variable "" {}
+variable "" {}
+variable "" {}
+variable "" {}
+variable "" {}
