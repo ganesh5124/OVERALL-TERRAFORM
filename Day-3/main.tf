@@ -38,3 +38,12 @@ resource "aws_instance" "ec2-instance" {
     Name = "ec2-instance"
   }
 }
+
+resource "aws_key_pair" "prod" {
+  key_name = "prod"
+  public_key = "pvgkumar2001@gmail.com"
+ 
+  tags = {
+    Name = "prod"
+  }
+}
