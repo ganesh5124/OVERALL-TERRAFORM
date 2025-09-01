@@ -180,13 +180,6 @@ resource "aws_opensearch_domain" "datacenter-es" {
   }
 }
 
-resource "aws_secretsmanager_secret" "devops-secret" {
-  name = "devops-secret"
-  secret_string = jsonencode({
-    username = "admin"
-    password = "Namin123"
-  })
-}
 
 resource "aws_instance" "ec2" {
   ami           = "ami-0c101f26f147fa7fd"
